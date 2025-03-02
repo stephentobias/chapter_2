@@ -15,6 +15,7 @@ int main()
 	std::cin >> user_input;
 
 	std::cout << "Double " << user_input << " is: " << doubleNumber(user_input) << '\n';
+	std::cout << "Triple " << user_input << " is: " << tripleNumber(user_input) << '\n';
 	return 0;
 }
 
