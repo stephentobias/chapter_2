@@ -1,11 +1,8 @@
-// User-defined headers
 #include "add.h"
 #include "getInteger.h"
-
-// Standard libs
 #include <iostream>
 
-// Lesson 2.11
+// Lesson 2.12
 int main()
 {
 	int x{ getInteger() };

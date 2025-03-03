@@ -1,3 +1,4 @@
+#include "getInteger.h"
 #include <iostream>
 
 int getInteger()
