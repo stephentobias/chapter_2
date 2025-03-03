@@ -1,14 +1,10 @@
-/* Chapter 2 quiz question 2
-    Modify the program you wrote in exercise #1 so that readNumber() and
-        writeAnswer() live in a separate file called “io.cpp”. Use a forward
-        declaration to access them from main().
-
-    If you’re having problems, make sure “io.cpp” is properly added to your
-        project so it gets compiled.
+/* Chapter 2 quiz question 3
+    Modify the program you wrote in #2 so that it uses a header file (named io.h)
+        to access the functions instead of using forward declarations directly
+        in your code (.cpp) files. Make sure your header file uses header guards.
  */
 
-int readNumber();
-void writeAnswer(int number_input);
+#include "io.h"
 
 int main()
 {
