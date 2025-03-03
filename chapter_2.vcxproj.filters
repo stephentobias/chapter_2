@@ -32,5 +32,8 @@
     <ClInclude Include="add.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="getInteger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
