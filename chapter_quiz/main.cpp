@@ -1,16 +1,11 @@
-/* Chapter 2 quiz question 1
- * Write a single-file program (named main.cpp) that reads two separate integers
- * from the user, adds them together, and then outputs the answer. The program
- * should use three functions:
- *
- *   - A function named “readNumber” should be used to get (and return) a single
- *       integer from the user.
- *   - A function named “writeAnswer” should be used to output the answer. This
- *       function should take a single parameter and have no return value.
- *   - A main() function should be used to glue the above functions together.
- */
+/* Chapter 2 quiz question 2
+    Modify the program you wrote in exercise #1 so that readNumber() and
+        writeAnswer() live in a separate file called “io.cpp”. Use a forward
+        declaration to access them from main().
 
-#include <iostream>
+    If you’re having problems, make sure “io.cpp” is properly added to your
+        project so it gets compiled.
+ */
 
 int readNumber();
 void writeAnswer(int number_input);
@@ -24,17 +19,3 @@ int main()
     return 0;
 }
 
-int readNumber()
-{
-    std::cout << "Enter a number: ";
-
-    int user_input{ };
-    std::cin >> user_input;
-
-    return user_input;
-}
-
-void writeAnswer(int number_input)
-{
-    std::cout << "The sum is: " << number_input << '\n';
-}
